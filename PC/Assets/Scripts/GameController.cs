@@ -61,5 +61,11 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene("Creditos");
     }
+
+    public void EXIT()
+    {
+        Application.Quit();
+    }
+
 }
 
